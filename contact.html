@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="contact-page">
+
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="https://www.just.edu.jo/" class="Logo""><img src="just.com.png" alt="JUST Logo" class="top-left"></a>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="form-container">
+            <h2>Get in Touch</h2>
+            <form id="contactForm" action="https://formspree.io/f/yourformid" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" placeholder="Your country">
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Your comments"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back To Top</button>
+
+    <footer>
+        <hr>
+        <p>© 2025 My Website</p>
+        <a href="mailto:raabuisqeir23@cit.just.edu.jo">raabuisqeir23@cit.just.edu.jo</a>
+    </footer>
+
+</body>
+</html>
