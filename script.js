@@ -18,7 +18,6 @@ form.addEventListener('submit', function(event) {
     form.reset();
 });
 
-// Back to Top Button
 const backToTopBtn = document.getElementById("backToTopBtn");
 
 if (backToTopBtn) {
@@ -37,3 +36,4 @@ if (backToTopBtn) {
         document.documentElement.scrollTop = 0;
     });
 }
+
