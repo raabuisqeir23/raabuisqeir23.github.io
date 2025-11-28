@@ -280,3 +280,8 @@ p {
     background-color: #555;
 }
 
+span {
+    background-color: yellow;
+    color: black;
+}
+
